@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Thaynara Duran">
+    <meta name="description" content="Site para vizualização do portfólio de Thaynara Duran.">
+    <title>Meu Portfólio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3947c5d773.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light corMenuFooter p-3 pd-4 ">
+        <div class="container-fluid">
+            <a class="navbar-brand nomeMenu" href="#sobre-mim">Thaynara Duran</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre-mim">Sobre mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skill">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projetos">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="sessoes position-relative overflow-hidden p-3 pd-5 text-center corDeFundo">
+        <img class="foto-perfil" src="img\image.jpg" alt="Foto de uma garota bonita">
+        <h1 class="display-4 fw-normal textoPrincipal">Thaynara Duran</h1>
+        <p class="subtitulo">Front-End Developer - UX Developer</p>
+        <p>
+            <a class="botaoContato" href="#contato">Contato</a>
+        </p>
+
+        <a href="https://www.linkedin.com/in/thaynara-duran-9883b622a/" target="_blank" class="tag">
+            <i class="mt-2 icones fab fa-linkedin"></i>
+        </a>
+        <!--  <i class="fab fa-gmail"></i> -->
+        <a href="https://www.instagram.com/eithaayd/" target="_blank" class="tag">
+            <i class="icones ml-3 fab fa-instagram"></i>
+        </a>
+    </div>
+
+    <!-- Sobre Mim -->
+    <section class="container-fluid text-center corDeFundo" id="sobre-mim">
+        <div class="container sessoes">
+            <h2 class="titulosPag">Sobre Mim</h2>
+            <p class="lead">Olá, eu sou a Thay. </p>
+            <p class="lead">Tenho 25 anos e três gatinhas pelas quais sou apaixonada. Moro no interior do  Paraná e sou formada em Tecnologia em Análise e Desenvolvimento de Sistemas pelo Instituto Federal do Paraná - IFPR, pós graduada em UX - User
+                Experience pela UNOPAR. </p>
+                <p class="lead">Tenho muita disposição em aprender e conhecer coisas novas. Sou apaixonada por tecnologia e amo ler.</p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="container-fluid text-center corDeFundo " id="skill">
+        <div class="container sessoes">
+            <h2 class="titulosPag">Skills </h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col-12 col-md-6">
+                    <div class="bg-white box-shadow mx-auto quadroSkills">
+                        <div class="my-3 p-3">
+                            <h3 class="segundoTitulo">Soft Skills</h3>
+                            <p class="lead">Habilidades sociais</p>
+                            <ul class="infoSkills">
+                                <li>Trabalho em equipe</li>
+                                <li>Comunicação assertiva</li>
+                                <li>Organização e gestão do tempo</li>
+                                <li>Resiliência</li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="bg-white box-shadow mx-auto quadroSkills">
+                        <div class="my-3 p-3">
+                            <h3 class="segundoTitulo">Hard Skills</h3>
+                            <p class="lead ">Habilidades técnicas</p>
+                            <ul class="infoSkills">
+                                <li> HTML</li>
+                                <li> CSS</li>
+                                <li> Javascript</li>
+                                <li> React JS</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meus Projetos -->
+    <section class="container-fluid text-center corDeFundo" id="projetos">
+        <div class="container sessoes">
+            <h2 class="text-center titulosPag">Projetos</h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 row-cols-lg-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="imagemDosProjetos" src="img\projeto-1.png" alt="Imagem do Projeto de número 1">
+
+                        <div class="card-body">
+                            <p class="card-text">Projeto desenvolvido através da Maratona Explorer da Rocketseat.
+                                Utilizando HTML, CSS e Javascript.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://thaynaraduran.github.io/maratona-explorer-1/" target="_blank">
+                                        <button type="button" class="btn btn-sm me-md-2 btn-outline-success">Ver
+                                            Projeto</button>
+                                    </a>
+                                    <a href="https://github.com/ThaynaraDuran/maratona-explorer-1" target="_blank">
+                                        <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="imagemDosProjetos" src="img\projeto-2.png" alt="Imagem do Projeto de número 2">
+
+                        <div class="card-body">
+                            <p class="card-text">Projeto desenvolvido através da Maratona Explorer 2.0 da Rocketseat.
+                                Utilizando HTML e CSS.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://thaynaraduran.github.io/maratona-explorer-2.0/" target="_blank">
+                                        <button type="button" class="btn btn-sm me-md-2 btn-outline-success">Ver
+                                            Projeto</button>
+                                    </a>
+                                    <a href="https://github.com/ThaynaraDuran/maratona-explorer-2.0" target="_blank">
+                                        <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="imagemDosProjetos" src="img\projeto-3s.png" alt="Imagem do Projeto de número 3">
+
+                        <div class="card-body">
+                            <p class="card-text">Projeto de conversão de temperaturas (Celsius, Fahrenheit e Kelvin). Desenvolvido com HTML, CSS e Javascript.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://thaynaraduran.github.io/ConversordeTemperaturas/" target="_blank">
+                                        <button type="button" class="btn btn-sm me-md-2 btn-outline-success">Ver
+                                        Projeto</button>
+                                    </a>
+                                    <a href="https://github.com/ThaynaraDuran/ConversordeTemperaturas" target="_blank"> 
+                                        <button type="button" class="btn btn-sm btn-outline-primary">Código</button>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contato -->
+    <section class="container-fluid  corDeFundo" id="contato">
+        <div class="container sessoes">
+            <h2 class="text-center titulosPag">Disponível para Oportunidades</h2>
+
+            <div style="height:175px; width:300px; margin: 0 auto;">
+                <a href="mailto:thaayduran@gmail.com" class="tag">
+                    <h5 class="text-justify pt-2 pb-0 mb-2 segundoTitulo">
+                        <img class="mr-2" src="img\mail.png" alt="icone email" width="40" height="40">
+                        thaayduran@gmail.com
+                    </h5>
+                </a>
+
+                <a href="https://www.linkedin.com/in/thaynara-duran-9883b622a/" target="_blank" class="tag">
+                    <h5 class="text-justify pt-2 pb-0 mb-2 segundoTitulo">
+                        <img class="mr-2" src="img\linkedin.png" alt="icone linkedin" width="40" height="40">
+                        Thaynara Duran
+                    </h5>
+                </a>
+
+                <a href="https://www.instagram.com/eithaayd/" target="_blank" class="tag">
+                    <h5 class="text-justify pt-2 pb-3 mb-0 segundoTitulo">
+                        <img class="mr-2" src="img\instagram.png" alt="icone instagram" width="40" height="40">
+                        @eithaayd
+                    </h5>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bd-footer p-3 p-md-4  text-center text-sm-left corMenuFooter">
+        <div class="container">
+            <p class="text-muted textoFooter">Desenvolvido por Thaynara Duran © 2022</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
